@@ -1,0 +1,42 @@
+*mkplugin*  A plugin for Vim / NeoVim
+mkplugin                                                 *mkplugin*
+
+Author:  TamaMcGlinn <https://github.com/TamaMcGlinn>
+License: Same terms as Vim itself (see |license|)
+
+==============================================================================
+INTRODUCTION                                                  *mkplugin-intro*
+
+mkplugin uses cookiecutter with this vimscript template to quickly jump into
+a new plugin.
+
+==============================================================================
+PREREQUISITES                                              *mkplugin-prereqs*
+
+Flog supports Vim 8, Vim 9, and Neovim.
+
+==============================================================================
+COMMANDS                                                   *mkplugin-commands*
+
+MkPlugin [plugin-name]
+
+    Create a plugin in ~/.vim/plugged/vim-[plugin-name]
+==============================================================================
+MAPPINGS                                                 *mkplugin-mappings*
+
+    None. We suggest adding this to your vimrc:
+
+    nnoremap <leader>vpn :MkPlugin 
+
+    Note the trailing space. You trigger it and then type the name for the
+    plugin and let mkplugin drop you into the autoload/*.vim file.
+
+==============================================================================
+FUNCTIONS                                                *mkplugin-functions*
+
+                                                                  mkplugin#mk()
+mkplugin#mk(plugin_name)
+
+  Creates plugin.
+
+ vim:tw=78:ts=8:ft=help
