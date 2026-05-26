@@ -1,4 +1,4 @@
-*mkplugin*  A plugin for Vim / NeoVim
+*mkplugin*  Pluginception
 mkplugin                                                 *mkplugin*
 
 Author:  TamaMcGlinn <https://github.com/TamaMcGlinn>
@@ -7,8 +7,8 @@ License: Same terms as Vim itself (see |license|)
 ==============================================================================
 INTRODUCTION                                                  *mkplugin-intro*
 
-mkplugin uses cookiecutter with this vimscript template to quickly jump into
-a new plugin.
+mkplugin uses cookiecutter with a custom vimscript template to quickly create
+and then start editing a new plugin.
 
 ==============================================================================
 PREREQUISITES                                              *mkplugin-prereqs*
